@@ -1,0 +1,52 @@
+#include <stdio.h>
+
+int main()
+{
+    float x;
+    printf("inserisci un numero x:");
+    scanf("%f", &x);
+    char y;
+    printf("inserisci un segno:");
+    scanf("\n%c", &y);
+    float z;
+    printf("inserisci un numero z:");
+    scanf("%f", &z);
+    if (y!='-'&&y!='+'&&y!='*'&&y!='/')
+    {
+        printf("errore\n");
+        return(-1);
+    }
+    else if (y=='-')
+    {
+        z=x-z;
+        printf("il risultato è %f\n", z);
+    }
+    else if (y=='+')
+    {
+        z=x+z;
+        printf("il risultato è %f\n",z);
+
+    }
+    else if (y=='*')
+    {
+        z=x*z;
+        printf("il risultato è %f\n", z);
+    }
+    else if (y=='/')
+    {
+       if (z==0)
+       {
+           printf("errore\n");
+           return(-1);
+       }
+       else
+       {
+  
+       z=x/z;
+       printf("il risultato è %f\n",z);
+       }
+
+    }
+    return(0);    
+
+}
