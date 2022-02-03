@@ -2,19 +2,19 @@
 
 int main ()
 {
-    int x
+    int x;
     int y
-    x=0
-    y=0
-    while (x<10&&y<10) 
+    x=0;
+    y=x;
+    while (x<10) 
     {
-        while (x=0&&y<10)
+        y=0;
+        while (y<10)
         {
             y = y + 1
-            printf ("%i", y);
+            printf ("%i","%i\n" x, y);
         }
         x = x+1
-        printf ("%i",x);
     }
-    return 0
+    return 0;
 }
