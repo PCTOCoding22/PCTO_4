@@ -4,13 +4,17 @@ int main()
 {
     int x;
     x=0;
-    while (x<100)
+    int y;
+    y=0;
+    while (x<10)
     {
-        printf("\n%i", x++);
+        y=0;
+        while(y<10)
         {
-            if(x<10)
-            printf("\n0%i", x++);
+           printf("%i%i\n", x, y);
+           y=y+1;
         }
+        x=x+1;
     }
     return(0);
 }
