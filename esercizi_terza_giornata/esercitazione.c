@@ -9,15 +9,16 @@ int main()
 
 while(x<10)
 {
+    
     y = 0;
-   
     while(y<10)
     {
-        printf("x: %i y: %i\n ,x ,y");
+        printf(" %i%i\n" ,x ,y);
         y=y+1;
     }
-    x=x+1;
-}
+    x = x+1;
+   
+} 
 
 return(0);
 }
