@@ -23,4 +23,5 @@ int main()
         printf("triangolo isoscele\n");
     }
     return(0);
+    
 }
