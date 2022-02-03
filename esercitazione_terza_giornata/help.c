@@ -16,7 +16,10 @@ int main()
            y=y + 1;
        }
      x= x + 1;
-     
+     if (x y==y x)
+     {
+         printf("");
+     }
 
     }
     return(0);
