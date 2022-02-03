@@ -9,13 +9,13 @@ int main()
     y=0;
     while (x < 10)
     {
-         y=0
-         while (x<10)
+         y=x;
+         while (y<10)
          {
        
              printf("%i %i\n",x, y);
              y=y+1;
-             
+
          }
          x = x+1;
     }
